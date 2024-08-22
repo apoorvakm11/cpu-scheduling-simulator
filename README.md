@@ -72,8 +72,8 @@ Different CPU scheduling algorithms have unique properties, and choosing the rig
 - **Simulating Round Robin Scheduling**:
   1. Open the simulator.
   2. Select "Round Robin" from the list of algorithms.
-  3. Input the process details such as burst time and quantum time.
-  4. Click "Simulate" to see the order of execution and performance metrics.
+  3. Input the number of process.
+  4. Click "Start" to see the order of execution and performance metrics.
 
 ## Contributing
 
