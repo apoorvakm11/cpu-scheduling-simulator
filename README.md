@@ -1,87 +1,56 @@
-# CPU-Scheduling-Simulator
+🧠 CPU Scheduling Simulator
+A Java-based graphical simulator that visualizes and analyzes various CPU scheduling algorithms. This tool is designed to aid students and educators in understanding how different scheduling strategies impact process execution and system performance.
 
-## Table of Contents
-- [Overview](#overview)
-- [Problem Statement](#problem_statement)
-- [Features](#features)
-- [Files and Directories](#files-and-directories)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Example](#example)
-- [Contributing](#contributing)
-- [YouTube Video](#youtube_video)
+📌 Problem Statement
+In operating systems, CPU scheduling determines the order in which processes access the CPU. Different scheduling algorithms, such as First-Come, First-Served (FCFS), Shortest Job Next (SJN), Round Robin (RR), and Priority Scheduling, have unique characteristics and performance implications. Selecting the appropriate algorithm depends on specific criteria like average waiting time, turnaround time, and response time. This simulator provides a platform to experiment with and compare these algorithms, facilitating a deeper understanding of their behaviors and trade-offs.
+GitHub
 
-## Overview
+✨ Features
+Multiple Scheduling Algorithms:
 
-This repository contains a Java-based simulator for CPU scheduling algorithms. CPU scheduling is a fundamental aspect of operating systems, where the CPU decides the order in which processes are executed. This simulator allows users to visualize and analyze different scheduling algorithms such as First-Come, First-Served (FCFS), Shortest Job Next (SJN), Round Robin (RR), and more. 
+First-Come, First-Served (FCFS)
 
-## Problem Statement
-Different CPU scheduling algorithms have unique properties, and choosing the right one for a particular situation depends on various criteria used to compare their performance. These criteria are referred to as CPU scheduling criteria. For instance, in some cases, maximizing response time may be prioritized over throughput, while in others, minimizing average waiting time might be more important, even if it means sacrificing response time. Sometimes, a balance between multiple criteria is required. The challenge lies in determining which scheduling algorithm is best suited for a given situation. This project aims to address that challenge. The CPU Scheduling Simulator provides an environment where users can experimentally test and compare the performance of different scheduling algorithms through simulation. At the start, users can select any CPU scheduling algorithm they wish to evaluate. They then input the number of processes and relevant details for each process, such as CPU burst time, process ID, priority (if a priority scheduling policy is chosen), arrival time, and more. The simulator visually demonstrates the execution of processes, showing the remaining wait and burst times, as well as the processes waiting in the ready queue. One of the key features of this project is its Graphical User Interface, making it user-friendly and easy to operate.
+Shortest Job Next (SJN)
 
-## Features
+Round Robin (RR)
 
-- **Multiple Scheduling Algorithms**: Simulates various CPU scheduling algorithms such as FCFS, SJN, RR, and more.
-- **User Interface**: Provides a graphical user interface (GUI) for easy interaction and visualization.
-- **Detailed Output**: Displays the order of process execution, waiting time, turnaround time, and other performance metrics.
-- **Custom Data Structures**: Tailored data structures for managing processes and scheduling tasks.
+Priority Scheduling
 
+Shortest Remaining Time First (SRTF)
 
-## Files and Directories
-- `sources/`: Directory for additional source files.
-- `src/main/`: Main source code directory where the implementation of CPU scheduling algorithms resides.
-- `target/`: Directory for compiled classes and build artifacts.
-- `pom.xml`: Maven project file for managing dependencies and build configurations.
+User-Friendly GUI:
 
-## Getting Started
+Intuitive interface for inputting process details.
 
-### Prerequisites
+Visual representation of process execution and scheduling.
 
-- Java Development Kit (JDK) 8 or higher.
-- Apache Maven (optional, for building the project).
-- A Java IDE (e.g., IntelliJ IDEA, Eclipse) or any text editor with Java support.
+Performance Metrics:
 
-### Installation
+Displays waiting time, turnaround time, and other relevant statistics.
 
-1. Clone the repository to your local machine using:
-   ```bash
-   git clone https://github.com/ammarlodhi255/cpu-scheduling-simulator.git
-   ```
-   
-2. Navigate to the project directory:
-   ```bash
-   cd cpu-scheduling-simulator
-   ```
+Customizable Process Parameters:
 
-3. Open the project in your preferred Java IDE.
+Set arrival time, burst time, priority, and quantum (for RR).
 
-### Usage
+Educational Utility:
 
-1. **Compile the project**: Ensure all `.java` files are compiled. Most IDEs handle this automatically.
-2. **Run the Simulator**:
-   - Execute the main class in `src/main/` to launch the simulator's user interface.
-   - Choose the desired CPU scheduling algorithm and input the process data.
-3. **View Results**:
-   - The simulator will display the sequence of process execution and calculate important metrics like waiting time, turnaround time, and CPU utilization.
+Ideal for demonstrating CPU scheduling concepts in academic settings.
+Studocu
 
-### Example
+🛠️ Technical Stack
+Programming Language: Java
 
-- **Simulating Round Robin Scheduling**:
-  1. Open the simulator.
-  2. Select "Round Robin" from the list of algorithms.
-  3. Input the number of process.
-  4. Click "Start" to see the order of execution and performance metrics.
+GUI Framework: Java Swing
 
-## Contributing
+Development Environment: Visual Studio Code
 
-If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+Version Control: Git & GitHub
 
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push to the branch.
-5. Submit a pull request.
+🎯 Special Aspects
+Interactive Learning: The simulator provides a hands-on approach to understanding CPU scheduling, making it easier to grasp complex concepts.
 
-## YouTube Video
-Video link of project demonstration: https://www.youtube.com/watch?v=Rf6Ec8PjOyg
+Visualization: Real-time graphical representation of process scheduling enhances comprehension and engagement.
+
+Flexibility: Supports multiple algorithms and allows customization of process parameters to simulate various scenarios.
+
+Educational Tool: Designed to assist both instructors and students in exploring and teaching CPU scheduling algorithms effectively
