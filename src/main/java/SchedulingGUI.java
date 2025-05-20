@@ -72,7 +72,7 @@ public class SchedulingGUI extends JFrame {
         jPanel1.add(jButton1, new AbsoluteConstraints(490, 240, 140, 30));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 3, 12)); // NOI18N
-        jButton2.setText("Team Info");
+        jButton2.setText("Developer");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -144,7 +144,7 @@ public class SchedulingGUI extends JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        JOptionPane.showMessageDialog(null, "Developers:\n\nAmmar Ahmed, BSCS-IV.\nSuraksha Sadhwani, BSCS-IV.");
+        JOptionPane.showMessageDialog(null, "Developer:\n\nApoorvaKM");
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void nextStep2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextStep2ActionPerformed
